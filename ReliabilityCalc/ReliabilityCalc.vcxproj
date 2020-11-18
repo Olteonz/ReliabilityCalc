@@ -151,12 +151,18 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Problem1.cpp" />
     <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Problem2.cpp" />
+    <ClCompile Include="Problem3.cpp" />
+    <ClCompile Include="ReliabilitySystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="Problem1.h" />
+    <ClInclude Include="Problem2.h" />
+    <ClInclude Include="Problem3.h" />
+    <ClInclude Include="ReliabilitySystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

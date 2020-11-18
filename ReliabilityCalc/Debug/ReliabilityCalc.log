@@ -1,4 +1,6 @@
-﻿  main.cpp
-  Problem1.cpp
+﻿  Problem3.cpp
+C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Problem3.cpp(16,88): warning C4244: "*=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Problem3.cpp(20,28): warning C4244: "*=": konwersja z "double" do "float", możliwa utrata danych
+  ReliabilitySystem.cpp
   Generowanie kodu...
   ReliabilityCalc.vcxproj -> C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.exe
