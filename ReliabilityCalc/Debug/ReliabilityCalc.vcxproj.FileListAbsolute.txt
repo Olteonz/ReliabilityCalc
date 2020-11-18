@@ -1,2 +1,4 @@
 C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.exe
 C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.pdb
+C:\Users\19afr\Documents\PJATK\BSI\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.exe
+C:\Users\19afr\Documents\PJATK\BSI\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.pdb
