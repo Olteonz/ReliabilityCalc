@@ -1,6 +1,9 @@
 #ifndef PROBLEM1_H
 #define PROBLEM1_H
 
-void doSmth();
+class Problem1 {
+public:
+	virtual void solve();
+};
 
 #endif //

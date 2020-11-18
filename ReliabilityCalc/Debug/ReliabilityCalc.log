@@ -1,5 +1,4 @@
-﻿  Problem1.cpp
-  main.cpp
+﻿  main.cpp
+  Problem1.cpp
   Generowanie kodu...
-Problem1.obj : error LNK2005: Element "void __cdecl doSmth(void)" (?doSmth@@YAXXZ) jest już zdefiniowany w elemencie main.obj
-C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.exe : fatal error LNK1169: znaleziono co najmniej jeden wielokrotnie zdefiniowany symbol
+  ReliabilityCalc.vcxproj -> C:\Users\olteo\OneDrive\Dokumenty\Studia\BSI\ReliabilityCalc\ReliabilityCalc\ReliabilityCalc\Debug\ReliabilityCalc.exe
