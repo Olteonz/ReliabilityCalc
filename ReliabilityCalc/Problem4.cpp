@@ -18,26 +18,27 @@ void Problem4::solve() {
 	cout << "Operating time:";
 	float operatingTime;
 	cin >> operatingTime;
-	int x = 0;
+
 	int failures = 0, tempFail;
-	float downtime, tempTime;
-	cout << "How much failed after what time?";
+	float downtime = 0, tempTime;
+	cout << "How much failed after what time? (to end write 0)"<<endl;
 	do {
 		cout << "How much: ";
 		cin >> tempFail;
+		if (tempFail == 0) {
+			break;
+		}
 		failures += tempFail;
-		cout << endl << "After what time (hours): ";
+		cout <<  "After what time (hours): ";
 		cin >> tempTime;
 		downtime += ((500 - tempTime) * tempFail);
 
-	} while (x == 1);
+	} while (true);
 
 	float frPerNumber = calculateFrPerNumber(failures, tested);
 	float frPerTime = calculateFrPerTime(failures, tested, operatingTime, downtime);
-
-	cout << "Failures per number tested = " << frPerNumber << "%";
-	cout << "Failures per operating time = " << frPerTime << " failures/hour";
-	cout << "MTBF = " << 1/frPerTime << " hours";
+	cout << "failures: " << failures << ", tested: " << tested << " ,operatingTime: " << operatingTime << ", downtime: " << downtime << endl;
+	cout << "Failures per number tested = " << frPerNumber << "%"<<endl;
+	cout << "Failures per operating time = " << frPerTime << " failures/hour"<<endl;
+	cout << "MTBF = " << 1/frPerTime << " hours"<<endl;
 };
-
-float

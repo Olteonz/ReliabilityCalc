@@ -13,12 +13,26 @@
 
 */
 //Jakub Kowalewski
+using namespace std;
 
 void Problem5::solve() {
 
-	Data problem1;
-	problem1.MTBF = 1000;
+	float cost, expectedNum=0, tempBreak = 0, tempFreq = 0;
 
-	std::cout << "The equipment in a packaging plant has a MTBF of 1000 hours. What is the probability that the equipment will operate for a period of 500 hours without failure ? \n";
-	std::cout << "The probability is: " << probabilityOfWorkingWithoutFailureInTime(problem1, 500) * 100 << "%";
+	cout << "Cost per breakdown in $: ";
+	cin >> cost;
+
+	cout << "Number of breakdowns with their  daily frequency? (to end write 0)" << endl;
+	do {
+		cout << "Number of breakdowns: ";
+		cin >> tempBreak;
+		if (tempBreak == 0) {
+			break;
+		}
+		cout << "Daily Frequency: ";
+		cin >> tempFreq;
+		expectedNum += (tempBreak*(tempFreq/10));
+	} while (true);
+	cout << "Expected number of breakdowns: " << expectedNum << " breakdowns/day"<<endl;
+	cout << "Expected breakdown cost: " << expectedNum*cost << "$/day" << endl;
 };

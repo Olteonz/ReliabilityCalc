@@ -1,0 +1,2 @@
+C:\Users\19afr\Documents\PJATK\BSI\ReliabilityCalc\ReliabilityCalc\x64\Debug\ReliabilityCalc.exe
+C:\Users\19afr\Documents\PJATK\BSI\ReliabilityCalc\ReliabilityCalc\x64\Debug\ReliabilityCalc.pdb

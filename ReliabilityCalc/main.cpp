@@ -12,6 +12,7 @@
 
 int main()
 {
+	/*
 	Problem1 problem1;
 	problem1.solve();
 	Problem2 problem2;
@@ -20,4 +21,10 @@ int main()
 	problem3.solve();
 	char k;
 	std::cin >> k;
+	
+	Problem4 problem4;
+	problem4.solve();
+	*/
+	Problem5 problem5;
+	problem5.solve();
 }

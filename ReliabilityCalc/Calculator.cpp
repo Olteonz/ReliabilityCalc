@@ -17,7 +17,7 @@ float probabilityOfWorkingWithoutFailureInTime(Data data, int time) {
 period of 500 operating hours each. During the test, six failed: two after 50 hours, two at 100 hours,
 one at 300 hours, and one at 400 hours.
 Find FR(%) and FR(N).*/
-int calculateFrPerNumber(int failures,int tested) {
+float calculateFrPerNumber(float failures,float tested) {
 	return (failures / tested) * 100;
 }
 float calculateFrPerTime(int failures, int tested, float operatingTime, float downtime) {
