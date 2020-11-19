@@ -37,7 +37,7 @@ void Problem4::solve() {
 
 	float frPerNumber = calculateFrPerNumber(failures, tested);
 	float frPerTime = calculateFrPerTime(failures, tested, operatingTime, downtime);
-	cout << "failures: " << failures << ", tested: " << tested << " ,operatingTime: " << operatingTime << ", downtime: " << downtime << endl;
+	cout << "failures: " << failures << ", tested: " << tested << " , operating time: " << operatingTime << ", downtime: " << downtime << endl;
 	cout << "Failures per number tested = " << frPerNumber << "%"<<endl;
 	cout << "Failures per operating time = " << frPerTime << " failures/hour"<<endl;
 	cout << "MTBF = " << 1/frPerTime << " hours"<<endl;
