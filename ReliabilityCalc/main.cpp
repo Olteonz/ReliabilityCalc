@@ -16,7 +16,7 @@ int main()
 {	
 	bool working = true;
 
-	 {
+	 do {
 		Problem1 problem1;
 		Problem2 problem2;
 		Problem3 problem3;
